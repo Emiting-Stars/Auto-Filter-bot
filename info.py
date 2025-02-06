@@ -65,16 +65,16 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download_7x/32
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1d74269ab2c3349995cd15776033eea192df8327')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_7x/32') # Tutorial video link for opening shortlink website 
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bea2b83467261cec3b811d76a9bd84533234219a')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hoshino_Xbot?start=Z2V0LTE2NjM4MDEwMDAxMDQzNDA') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie7xchat')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nova_flix')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+PmTvSWqzwo40Mzc1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/EmitingStars_Botz')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/RexySama')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/nova_flix')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/EmitingStars_Botz')
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
